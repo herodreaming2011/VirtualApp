@@ -5,6 +5,6 @@ package io.virtualapp.abs;
  */
 public interface BaseView<T> {
 	void setPresenter(T presenter);
-
+	void onCreate();
 	void destroy();
 }
