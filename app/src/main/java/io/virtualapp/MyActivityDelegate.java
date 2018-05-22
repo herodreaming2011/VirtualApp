@@ -11,6 +11,8 @@ public class MyActivityDelegate implements ActivityDelegate {
     public void onActivityCreate(Activity activity) {
 
     }
+    private void onCreate(){
+}
 
     @Override
     public void onActivityResumed(Activity activity) {
